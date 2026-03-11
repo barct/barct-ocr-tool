@@ -1,0 +1,10 @@
+# Ejemplos de ejecucion
+
+# OCR completo en espanol
+openclaw-ocr documento.pdf -o texto_extraido.txt -l spa
+
+# Solo paginas 2 a 4
+openclaw-ocr documento.pdf -o parcial.txt -l spa --first-page 2 --last-page 4
+
+# Con ruta de Poppler en Windows
+openclaw-ocr documento.pdf -o salida.txt -l spa --poppler-path "C:\\poppler\\Library\\bin"

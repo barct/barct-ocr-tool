@@ -1,0 +1,5 @@
+# Nota: "spa" no se instala con pip.
+# Es un paquete de idioma de Tesseract (ej. tesseract-ocr-spa en Debian/Ubuntu).
+pdf2image>=1.17.0
+pytesseract>=0.3.13
+Pillow>=10.0.0
